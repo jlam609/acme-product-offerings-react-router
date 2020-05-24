@@ -1,0 +1,35 @@
+#app{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding:10px;
+    border-radius: 15px;
+}
+.tab{
+    padding:10px;
+    margin-top: 10px;
+}
+.selected{
+    padding:10px;
+    margin-top: 10px;
+    border:black solid 1px;
+    border-radius: 15px;
+    background-color: white;
+}
+.list{
+    font-style: Sans-Serif;
+}
+.listElem{
+    list-style-type: none;
+    border:black solid 1px;
+    border-radius:15px;
+    padding: 10px;
+    font-weight: bold;
+}
